@@ -4,4 +4,4 @@ title: Donate
 permalink: /donate/
 ---
 
-# Donate
+# Some content

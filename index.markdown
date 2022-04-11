@@ -5,7 +5,6 @@
 layout: "page"
 ---
 
-# Luís Henrique Amorim
 _(AKA lamorim)_
 
 ![my_foto_lamorim](./assets/img/img_basecamp.jpeg)
