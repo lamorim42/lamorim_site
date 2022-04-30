@@ -6,13 +6,14 @@ body, ul, li, p {
 	font-family: Arial;
 }
 
-a {
-	text-decoration: none;
-	color: white;
+body {
+	width: 100vw;
+	height: 100vh;
+	background-color: #1d1e20;
 }
 
 .header {
-	background: #1d1e20;
+	background: #313131;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -20,28 +21,46 @@ a {
 	padding: 20px;
 }
 
-.menu {
+main {
+	width: 80%;
+	max-width: 800px;
+	margin: auto 0;
+	align-self: center;
+}
+
+main .perfil {
+	min-height: 70vh;
 	display: flex;
+	justify-content: space-between;
+	padding-top: 5px;
+}
+
+.perfil-text {
+	color: aliceblue;
+}
+
+a {
+	text-decoration: none;
 	color: white;
 }
 
-.menu li {
+.menu {
+	display: flex;
+	color: white;
+	width: 80%;
+}
+
+.menu li a {
 	margin-left: 10px;
 	padding: 10px;
 }
 
+.menu li:hover {
+	cursor: pointer;
+}
+
 .myImage {
-	width: 400px;
+	width: 200px;
 	padding: 10px;
-}
-
-.someImgConf {
-	border-color: green;
-	border-width: 10px;
-	border-style: solid;
-	border-radius: 50%;
-}
-
-.utils {
-	background-color: silver;
+	border-radius: 15%;
 }
